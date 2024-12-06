@@ -48,3 +48,11 @@ valid_input:
     syscall
 
 
+fibonacci_loop:
+    
+    move $a0, $t1       
+    li $v0, 1           
+    syscall
+
+
+
