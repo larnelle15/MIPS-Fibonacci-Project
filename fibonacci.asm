@@ -24,5 +24,13 @@ read_input:
 
     blt $t0, 25, invalid 
     blez $t0, invalid    
-    j valid_input       
+    j valid_input   
+
+
+invalid:
+    
+    li $v0, 4        
+    la $a0, error      
+    syscall
+    j main   
 
