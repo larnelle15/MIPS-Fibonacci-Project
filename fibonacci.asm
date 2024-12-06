@@ -14,3 +14,10 @@ main:
     li $v0, 4           
     la $a0, prompt        
     syscall
+
+
+read_input:
+    
+    li $v0, 5              
+    syscall
+    move $t0, $v0 
