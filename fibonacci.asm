@@ -32,5 +32,13 @@ invalid:
     li $v0, 4        
     la $a0, error      
     syscall
-    j main   
+    j main 
+
+
+valid_input:
+   
+    li $t1, 0           
+    li $t2, 1           
+    move $t3, $t0       
+    li $t4, 1  
 
