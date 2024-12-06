@@ -60,4 +60,10 @@ fibonacci_loop:
     syscall
 
 
+    add $t5, $t1, $t2   
+    move $t1, $t2         
+    move $t2, $t5        
+
+
+
 
