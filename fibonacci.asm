@@ -20,4 +20,9 @@ read_input:
     
     li $v0, 5              
     syscall
-    move $t0, $v0 
+    move $t0, $v0
+
+    blt $t0, 25, invalid 
+    blez $t0, invalid    
+    j valid_input       
+
