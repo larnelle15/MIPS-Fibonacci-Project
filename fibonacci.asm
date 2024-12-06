@@ -55,4 +55,9 @@ fibonacci_loop:
     syscall
 
 
+    li $v0, 4            
+    la $a0, space      
+    syscall
+
+
 
