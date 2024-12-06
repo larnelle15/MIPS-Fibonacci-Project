@@ -62,7 +62,12 @@ fibonacci_loop:
 
     add $t5, $t1, $t2   
     move $t1, $t2         
-    move $t2, $t5        
+    move $t2, $t5 
+
+
+    addi $t4, $t4, 1   
+    blt $t4, $t3, fibonacci_loop # Loop until counter == N
+
 
 
 
