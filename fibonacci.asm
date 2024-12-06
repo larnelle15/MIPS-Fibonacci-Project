@@ -4,3 +4,7 @@ error: .asciiz "Illegal Number!\n"
 fibo_msg: .asciiz "Fibonacci Sequence:\n"     
 space: .asciiz " "                          
 
+
+
+.text
+.globl main
