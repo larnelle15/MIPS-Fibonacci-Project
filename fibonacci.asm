@@ -42,3 +42,9 @@ valid_input:
     move $t3, $t0       
     li $t4, 1  
 
+
+    li $v0, 4            
+    la $a0, fibo_msg    
+    syscall
+
+
