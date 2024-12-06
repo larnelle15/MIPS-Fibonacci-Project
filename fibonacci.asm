@@ -69,6 +69,12 @@ fibonacci_loop:
     blt $t4, $t3, fibonacci_loop 
 
 
+end_program:
+    
+    li $v0, 10   
+    syscall
+
+
 
 
 
