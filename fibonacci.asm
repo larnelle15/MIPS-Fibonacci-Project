@@ -66,7 +66,7 @@ fibonacci_loop:
 
 
     addi $t4, $t4, 1   
-    blt $t4, $t3, fibonacci_loop # Loop until counter == N
+    blt $t4, $t3, fibonacci_loop 
 
 
 
